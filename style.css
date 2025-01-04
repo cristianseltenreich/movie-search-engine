@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #e50914;
+  margin-bottom: 20px;
+}
+
+input[type="search"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 1em;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f40612;
+}
+
+#results {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.movie {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.movie img {
+  margin-top: 1.5em;
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie h2 {
+  font-size: 15px;
+  margin: 0.5em 0;
+}
+
+.movie p {
+  margin: 0.5em 0;
+  color: #ccc;
+}
+
+.movie .year {
+  font-size: 12px;
+  color: #fb9b9b;
+  margin: 0.5em 0;
+}
+
+/* clase para el contenedor del título y el año */
+.movie-title-year {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+}
